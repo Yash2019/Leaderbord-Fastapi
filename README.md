@@ -267,13 +267,3 @@ The WebSocket tab connected to `pubg` should receive a `leaderboard_updated` eve
 4. Open a WebSocket connection to `ws://localhost:8000/ws/leaderbord/pubg`.
 5. Submit a score to `POST /LeaderBord`.
 6. Watch the WebSocket client receive the realtime update.
-
-## Future Improvements
-
-- Add authentication for players
-- Validate score submissions
-- Add automated tests
-- Add pagination or limits to leaderboard reads
-- Rename `leaderbord` to `leaderboard` consistently
-- Add Redis Pub/Sub for multi-worker deployments
-- Add a frontend client to display realtime leaderboard updates
